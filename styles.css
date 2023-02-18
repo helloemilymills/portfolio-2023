@@ -1,0 +1,66 @@
+/*fonts: Noto Serif Regular & Homemade Apple*/
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Noto+Serif+Display&display=swap');
+
+:root {
+  --bg: #363636;
+  --text: #FFFFFF;
+  /* --accent: #fca311; */
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 2.5vw;
+  font-family: 'Noto Serif Display', serif;
+  width: 100vw;
+  color: var(--text);
+  background-color: var(--bg);
+}
+
+a {
+  text-decoration: none;
+  color: inherit
+}
+
+a:visited {
+  color: inherit;
+}
+
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.signature {
+  font-family: 'Homemade Apple', cursive;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+#intro {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 50px auto 75px;
+}
+
+#intro h1 {
+  margin-top: 0;
+}
+
+h1, h2 {
+  font-size: 2rem;
+}
+
+
+.dividing-line {
+  width: 100%;
+  height: 1px;
+  background-color: var(--text);
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+footer {
+  font-size: 0.8rem;
+}
