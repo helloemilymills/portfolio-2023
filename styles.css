@@ -52,6 +52,20 @@ h1, h2 {
   font-size: 2rem;
 }
 
+.columns-container {
+  display: flex;
+  gap: 2.5vw;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5vw;
+}
+
+img {
+  max-width: 46.25vw 
+}
 
 .dividing-line {
   width: 100%;
