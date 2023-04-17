@@ -2,15 +2,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Noto+Serif+Display&display=swap');
 
 :root {
-  --bg: #363636;
-  --text: #FFFFFF;
+  --bg: #FFFFFF;
+  --text: #363636;
+  --not-black: #363636;
   /* --accent: #fca311; */
+}
+
+header {
+  width: 100vw;
+  background-color: var(--bg);
+  border: 2px solid var(--not-black);
+}
+
+header a {
+  margin: 0 15px;
+}
+
+header div {
+  display: flex;
+}
+
+#hero-image { 
+  max-width: 100vw;
+  border-bottom: 2px solid var(--not-black);
+
 }
 
 body {
   box-sizing: border-box;
   margin: 0;
-  padding: 2.5vw;
+  /* padding: 2.5vw; */
   font-family: 'Noto Serif Display', serif;
   width: 100vw;
   color: var(--text);
@@ -29,12 +50,6 @@ a:visited {
 .flex-space-between {
   display: flex;
   justify-content: space-between;
-}
-
-.signature {
-  font-family: 'Homemade Apple', cursive;
-  font-size: 1.3rem;
-  margin-bottom: 10px;
 }
 
 #intro {
