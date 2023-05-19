@@ -52,6 +52,11 @@ a:visited {
   justify-content: space-between;
 }
 
+.align-vertically {
+  display: flex;
+  align-items: center;
+}
+
 #intro {
   display: flex;
   flex-direction: column;
@@ -91,5 +96,10 @@ img {
 }
 
 footer {
+
+  padding: 10px 15px;
   font-size: 0.8rem;
+  width: 100vw;
+  background-color: var(--bg);
+  border: 2px solid var(--not-black);
 }
