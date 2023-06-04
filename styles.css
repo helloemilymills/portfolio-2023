@@ -43,6 +43,7 @@ a:visited {
 header {
   background-color: var(--bg);
   align-items: center;
+  height: 60px;
 }
 
 header a {
