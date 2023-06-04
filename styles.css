@@ -1,5 +1,6 @@
-/*fonts: Noto Serif Regular & Homemade Apple*/
+/*fonts: Noto Serif Regular & Homemade Apple, and Geologica*/
 @import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Noto+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 :root {
   --bg: #FFFFFF;
@@ -11,8 +12,7 @@
 body {
   box-sizing: border-box;
   margin: 0;
-  font-family: 'Noto Serif Display', serif;
-  width: 100vw;
+  font-family: 'Geologica', sans-serif;
   color: var(--text);
   background-color: var(--bg);
 }
@@ -53,20 +53,27 @@ header div {
 }
 
 #hero-image { 
-  width: 100vw;
+  width: 100%;
   border-bottom: 2px solid var(--not-black);
 }
 
-#intro {
+#intro-text {
   display: flex;
   flex-direction: column;
   text-align: center;
   margin: 50px auto;
+  width: 90%;
+  
 }
 
-#intro h1 {
-  margin: 0;
+#intro-text h1 {
+  margin: 0 0 20px;
 }
+
+#intro-text p {
+  margin: 10px;
+}
+
 
 h1, h2 {
   font-size: 2rem;
@@ -87,4 +94,15 @@ footer {
   padding: 10px 15px;
   font-size: 0.8rem;
   background-color: var(--bg);
+}
+
+.footer-socials {
+  display: flex;
+}
+
+@media screen and (min-width: 800px){
+
+  #intro-text { 
+    width: 500px;
+  }
 }
