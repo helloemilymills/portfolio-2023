@@ -63,20 +63,17 @@ header div {
   text-align: center;
   margin: 50px auto;
   width: 90%;
+  text-align: left;
   
 }
 
 #intro-text h1 {
-  margin: 0 0 20px;
+  margin-top: 0;
+  
 }
 
 #intro-text p {
-  margin: 10px;
-}
-
-
-h1, h2 {
-  font-size: 2rem;
+  margin: 10px 0;
 }
 
 .columns-container {
@@ -109,7 +106,5 @@ footer {
   #intro-text { 
     width: 500px;
   }
-
-
 }
 
