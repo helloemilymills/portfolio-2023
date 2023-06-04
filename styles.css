@@ -100,9 +100,16 @@ footer {
   display: flex;
 }
 
-@media screen and (min-width: 800px){
+@media screen and (min-width: 650px){
+
+  #hero-image {
+    content: url("images/profile-banner.png");
+  }
 
   #intro-text { 
     width: 500px;
   }
+
+
 }
+
