@@ -26,6 +26,10 @@ a:visited {
   color: inherit;
 }
 
+.image-border {
+  border: 2px solid var(--not-black);
+}
+
 .custom-border {
   border-bottom: 2px solid var(--not-black);
 }
@@ -105,12 +109,29 @@ footer {
   border: 2px solid var(--text);
   padding: 15px 20px;
   margin: 20px 0;
-  width: fit-content;
+  background-color: var(--not-black);
+  color: var(--bg);
 }
 
 .blog-preview h3, p, h5 {
   margin: 5px 0;
 }
+
+.blog-preview:hover {
+  opacity: 0.9;
+}
+
+.blog-section {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.blog-image {
+  width: 100%;
+  max-width: 500px;
+}
+
+
 
 @media screen and (min-width: 650px){
 
@@ -119,6 +140,10 @@ footer {
   }
 
   #intro-text { 
+    width: 500px;
+  }
+
+  .blog-section {
     width: 500px;
   }
 }
