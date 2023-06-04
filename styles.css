@@ -64,7 +64,6 @@ header div {
   margin: 50px auto;
   width: 90%;
   text-align: left;
-  
 }
 
 #intro-text h1 {
@@ -100,7 +99,7 @@ footer {
 @media screen and (min-width: 650px){
 
   #hero-image {
-    content: url("images/profile-banner.png");
+    content: url("images/profile-banner-desktop.png");
   }
 
   #intro-text { 
