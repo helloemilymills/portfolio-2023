@@ -34,7 +34,7 @@ a:visited {
   border: 2px solid var(--not-black);
 }
 
-.custom-border {
+.bottom-border {
   border-bottom: 2px solid var(--not-black);
 }
 
