@@ -17,12 +17,12 @@ body {
   background-color: var(--bg);
 }
 
-.icon-links {
-  text-decoration: none;
+a {
   color: inherit;
 }
 
-a {
+.icon-links {
+  text-decoration: none;
   color: inherit;
 }
 
@@ -95,6 +95,7 @@ footer {
   padding: 10px 15px;
   font-size: 0.8rem;
   background-color: var(--bg);
+  border-top: 2px solid var(--not-black);
 }
 
 .footer-socials {
