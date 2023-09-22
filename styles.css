@@ -78,9 +78,8 @@ header div {
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin: 50px auto;
-  padding: 0 15px;
-  text-align: left;
+  margin: 35px auto 20px;
+  padding: 0 2vw;
 }
 
 #intro-text h1 {
@@ -91,8 +90,20 @@ header div {
   margin: 10px 0;
 }
 
+.skill-boxes-container {
+  margin: 0 2vw;
+  justify-content: center;
+}
+
+.skill-boxes {
+  border: 2px solid var(--not-black);
+  margin: 0 auto;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
 footer {
-  padding: 10px 15px;
+  padding: 10px 2vw;
   font-size: 0.8rem;
   background-color: var(--bg);
   border-top: 2px solid var(--not-black);
@@ -105,7 +116,7 @@ footer {
 /* BLOG LANDING PAGE */
 
 #blog-landing-page {
-  padding: 0 15px;
+  padding: 0 2vw;
 }
 
 .blog-preview {
@@ -127,7 +138,7 @@ footer {
 }
 
 .blog-section {
-  padding: 0 15px;
+  padding: 0 2vw;
   margin: 0 auto;
 }
 
@@ -146,6 +157,24 @@ footer {
 
   #intro-text { 
     width: 500px;
+  }
+
+  .skill-boxes-container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .skill-boxes-column {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skill-boxes-column-a {
+    margin-right: 20px;
+  }
+
+  .skill-boxes {
+    width: 250px;
   }
 
   .blog-section {
