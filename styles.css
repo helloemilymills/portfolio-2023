@@ -114,11 +114,6 @@ header div {
   box-shadow: 5px 5px yellow;
 }
 
-/* .skill-boxes::after {
-  content: '';
-
-} */
-
 footer {
   padding: 10px 2vw;
   font-size: 0.8rem;
@@ -178,17 +173,20 @@ footer {
 
   .skill-boxes-container {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
+    width: 550px;
+    justify-content: space-between;
+    margin: 0 auto;
   }
   
-  .skill-boxes-column {
+  /* .skill-boxes-column {
     display: flex;
     flex-direction: column;
-  }
+  } */
 
-  .skill-boxes-column-a {
+  /* .skill-boxes-column-a {
     margin-right: 20px;
-  }
+  } */
 
   .skill-boxes {
     width: 250px;
