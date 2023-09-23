@@ -102,6 +102,23 @@ header div {
   text-align: center;
 }
 
+.box-shadow-red {
+  box-shadow: 5px 5px red;
+}
+
+.box-shadow-blue {
+  box-shadow: 5px 5px blue;
+}
+
+.box-shadow-yellow {
+  box-shadow: 5px 5px yellow;
+}
+
+/* .skill-boxes::after {
+  content: '';
+
+} */
+
 footer {
   padding: 10px 2vw;
   font-size: 0.8rem;
