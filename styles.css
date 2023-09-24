@@ -100,6 +100,11 @@ header div {
   margin: 0 auto;
   margin-bottom: 20px;
   text-align: center;
+  transition: 250ms;
+}
+
+.skill-boxes:hover {
+  transform: scale(1.05);
 }
 
 .box-shadow-red {
